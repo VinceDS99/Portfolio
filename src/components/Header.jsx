@@ -1,6 +1,6 @@
 import {Link} from "react-router-dom"
 import '../styles/Header.css'
-import LogoSmall from "../assets/Logo-small.png"
+import LogoSmall from "../assets/Logo-small-w.png"
 
 export default function Header() 
 {

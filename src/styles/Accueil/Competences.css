@@ -1,0 +1,80 @@
+.competences-bloc
+{
+    display: flex;
+    flex-direction: column;
+
+    margin-top: 5%;
+    margin-right: 5%;
+
+    width: 100%;
+    border: solid;
+}
+
+h2
+{
+    text-align: center;
+    margin-bottom: 5%;
+}
+
+.competences-all
+{
+    display: flex;
+    flex-direction: row;
+    margin-left: 10%;
+    margin-bottom: 10%;
+}
+
+.competences
+{
+    display: flex;
+    flex-direction: row;
+
+    margin-top: 3%;
+}
+
+.gray
+{
+    color: gray;
+}
+
+.gold
+{
+    color: gold;
+}
+
+.brain
+{
+    display: flex;
+    justify-content: left;
+    height: 300px;
+    width: 30%;
+}
+
+.competences-skills
+{
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    margin-left: 3%;
+}
+
+.outils
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.outils-all
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    margin-bottom: 5%;
+    margin-left: 15%;
+    gap: 5%;
+    width:70%;
+    border: 1px solid ;
+    padding: 3%;
+}
+
