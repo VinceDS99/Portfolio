@@ -1,0 +1,67 @@
+
+
+.presentation-bloc
+{
+    display: flex;
+    height: 500px;
+    width: 100%;
+    border-bottom: solid;
+    border-top: solid;
+}
+
+.presentation
+{
+    display: flex;
+    background-color: white;
+    height: inherit;
+    width: 65%;
+    margin-top: 0;
+}
+
+.presentation-text
+{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 15%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    margin-left: 10%;
+    margin-right: 5%;
+    padding-right: 1%;
+    padding-left:  1%;
+    margin-bottom: 15%;
+    background: rgba(250, 97, 97, 0.781);
+    font-family: didot-medium;
+    font-weight: bold;
+    font-size:20px;
+    text-align: center;
+}
+
+.Logo
+{
+    display: flex;
+    height: inherit;
+    width: 35%;
+    border-color: brown;
+}
+
+.btn 
+{
+    display: flex;
+    margin-left: 35%;
+    margin-top: 1%;
+    background-color: rgb(152, 0, 0);
+    border: none;
+    color: white;
+    padding: 12px 30px;
+    cursor: pointer;
+    font-size: 20px;
+    width: 30%;
+
+}
+
+.btn:hover 
+{
+    transform: scale(1.1);
+}

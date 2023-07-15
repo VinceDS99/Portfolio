@@ -1,4 +1,4 @@
-import Header from './components/Banner'
+import Header from './components/Header'
 import Accueil from './pages/Accueil'
 import Footer from './components/Footer'
 import Error from './pages/Error'
