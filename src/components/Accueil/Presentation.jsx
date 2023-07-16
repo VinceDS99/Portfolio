@@ -1,5 +1,5 @@
 import '../../styles/Accueil/Presentation.css'
-import Logo from "../../assets/Logo-b.png"
+import Logo from "../../assets/Logo-w-short.png"
 
 const PDF_FILE_URL = 'http://localhost:3000/Curriculum Vitae-Vincent Dos Santos.pdf'
 

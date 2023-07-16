@@ -1,0 +1,27 @@
+.bloc-skills, .bloc-tools
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 5%;
+    width: 100%;
+    margin-bottom: 10%;
+    margin-top:5%;
+}
+
+.tools, .skills
+{
+    background: rgb(173, 2, 2);
+    border-radius: 20px;
+    margin-right: 2%;
+    color: #fff;
+
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-left: 5%;
+    padding-right: 5%;
+    
+    height: 34px;
+    font-weight: bold;
+    text-align: center;
+}

@@ -45,7 +45,7 @@ export default function Competences()
     
 	return <div className='competences-bloc'>
 
-                <h2 className='competences-text'>
+                <h2 className='competences-title'>
                     Mes compétences actuelle :
                 </h2>
 
@@ -54,70 +54,127 @@ export default function Competences()
                     <img src={brain} alt="Image d'un cerveau" className='brain'/>
 
                     <div className='competences-skills'>
+
                         <div className='competences'>
-                            <i class="fa fa-html5"></i><span> HTML </span>               
-                            {htmlTab.map
-                                ((htmlrate,index) =>
-                                    <i className={htmlrate} key={index}></i>
-                                )
-                            }
+
+                            <div className='competences-text'>
+                                <i class="fa fa-html5 comp"></i><span> HTML </span>    
+                            </div>
+
+                            <div className='competences-stars'>
+                                {htmlTab.map
+                                    ((htmlrate,index) =>
+                                        <i className={htmlrate} key={index}></i>
+                                    )
+                                }
+                            </div>
+
                         </div>
 
                         <div className='competences'>
-                            <i class="fa fa-css3"></i><span> CSS </span>               
-                            {cssTab.map
-                                ((cssrate,index) =>
-                                    <i className={cssrate} key={index}></i>
-                                )
-                            }
+
+                            <div className='competences-text'>
+                                <i class="fa fa-css3 comp"></i><span> CSS </span>    
+                            </div>
+
+                            <div className='competences-stars'>
+                                {cssTab.map
+                                    ((cssrate,index) =>
+                                        <i className={cssrate} key={index}></i>
+                                    )
+                                }
+                            </div>
+
                         </div>
 
-                        <div className='competences'>
-                            <i class="fab fa-js"></i><span> Javascript </span>               
-                            {javascriptTab.map
-                                ((javascriptrate,index) =>
-                                    <i className={javascriptrate} key={index}></i>
-                                )
-                            }
-                        </div>
 
                         <div className='competences'>
-                            <i class="fa-brands fa-react"></i><span> React </span>               
-                            {reactTab.map
-                                ((reactrate,index) =>
-                                    <i className={reactrate} key={index}></i>
-                                )
-                            }
+
+                            <div className='competences-text'>
+                                <i class="fab fa-js comp"></i><span> Javascript </span>    
+                            </div>
+
+                            <div className='competences-stars'>
+                                {javascriptTab.map
+                                    ((javascriptrate,index) =>
+                                        <i className={javascriptrate} key={index}></i>
+                                    )
+                                }
+                            </div>
+
                         </div>
 
-                        <div className='competences'>
-                            <i class="fa-solid fa-database"></i><span> MySQL </span>               
-                            {mysqlTab.map
-                                ((mysqlrate,index) =>
-                                    <i className={mysqlrate} key={index}></i>
-                                )
-                            }
-                        </div>
 
                         <div className='competences'>
-                            <i class="fa-brands fa-php"></i><span> PHP </span>               
-                            {phpTab.map
-                                ((phprate,index) =>
-                                    <i className={phprate} key={index}></i>
-                                )
-                            }
+
+                            <div className='competences-text'>
+                                <i class="fa-brands fa-react comp"></i><span> React </span>    
+                            </div>
+
+                            <div className='competences-stars'>
+                                {reactTab.map
+                                    ((reactrate,index) =>
+                                        <i className={reactrate} key={index}></i>
+                                    )
+                                }
+                            </div>
+
                         </div>
 
+
                         <div className='competences'>
-                            <i class="fa-solid fa-bug"></i><span> Debug et optimisation </span>               
-                            {debugoptiTab.map
-                                ((debugoptirate,index) =>
-                                    <i className={debugoptirate} key={index}></i>
-                                )
-                            }
+
+                            <div className='competences-text'>
+                                <i class="fa-solid fa-database comp"></i><span> MySQL </span>    
+                            </div>
+
+                            <div className='competences-stars'>
+                                {mysqlTab.map
+                                    ((mysqlrate,index) =>
+                                        <i className={mysqlrate} key={index}></i>
+                                    )
+                                }
+                            </div>
+
                         </div>
+
+
+                        <div className='competences'>
+
+                            <div className='competences-text'>
+                                <i class="fa-brands fa-php comp"></i><span> PHP </span>    
+                            </div>
+
+                            <div className='competences-stars'>
+                                {phpTab.map
+                                    ((phprate,index) =>
+                                        <i className={phprate} key={index}></i>
+                                    )
+                                }
+                            </div>
+
+                        </div>
+
+
+                        <div className='competences'>
+
+                            <div className='competences-text'>
+                                <i class="fa-solid fa-bug comp"></i><span> Debug et optimisation </span>    
+                            </div>
+
+                            <div className='competences-stars'>
+                                {debugoptiTab.map
+                                    ((debugoptirate,index) =>
+                                        <i className={debugoptirate} key={index}></i>
+                                    )
+                                }
+                            </div>
+
+                        </div>
+
                     </div>
                 </div>
+
 
 
                 <h2 className='outils-text'>
@@ -126,37 +183,37 @@ export default function Competences()
 
                 <div className='outils-all'>
                     <div className='outils'>
-                        <i className="fa-brands fa-github"></i>
+                        <i className="fa-brands fa-github tool"></i>
                         <span> Github </span>               
                     </div>
 
                     <div className='outils'>
-                        <i className="fa-brands fa-git-alt"></i>
+                        <i className="fa-brands fa-git-alt tool"></i>
                         <span> Git </span>               
                     </div>
                     
                     <div className='outils'>
-                        <i className="fa-brands fa-figma"></i>
+                        <i className="fa-brands fa-figma tool"></i>
                         <span> Figma </span>               
                     </div>
 
                     <div className='outils'>
-                        <i className="fa-brands fa-envira"></i>
+                        <i className="fa-brands fa-envira tool"></i>
                         <span> MongoDB </span>                
                     </div>
 
                     <div className='outils'>
-                        <i className="fa-regular fa-lightbulb"></i>
+                        <i className="fa-regular fa-lightbulb tool"></i>
                         <span> Lightouse </span>               
                     </div>
 
                     <div className='outils'>
-                        <i className="fa-solid fa-w"></i>
+                        <i className="fa-solid fa-w tool"></i>
                         <span> Wave </span>               
                     </div>
 
                     <div className='outils'>
-                        <i className="fa-solid fa-font-awesome"></i>
+                        <i className="fa-solid fa-font-awesome tool"></i>
                         <span> Font-Awesome </span>                
                     </div>
                 </div>

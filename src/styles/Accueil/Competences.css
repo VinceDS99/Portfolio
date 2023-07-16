@@ -20,16 +20,19 @@ h2
 {
     display: flex;
     flex-direction: row;
+
     margin-left: 10%;
     margin-bottom: 10%;
+    width: 80%;
 }
 
 .competences
 {
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
 
-    margin-top: 3%;
+    margin-top: 9%;
 }
 
 .gray
@@ -56,6 +59,7 @@ h2
     justify-content: flex-end;
     flex-direction: column;
     margin-left: 3%;
+    width: fit-content;
 }
 
 .outils
@@ -74,7 +78,103 @@ h2
     margin-left: 15%;
     gap: 5%;
     width:70%;
-    border: 1px solid ;
+    border: 3px solid ;
     padding: 3%;
+
+    background-color: rgba(211, 211, 211, 0.345);
 }
 
+.comp
+{
+    display: flex;
+
+    font-size: 20px;
+}
+
+.tool
+{
+    font-size: 20px;
+}
+
+.competences-text 
+{
+    display: flex;
+    flex-direction: row;
+
+    gap: 10%;
+}
+
+.competences-stars
+{
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+/* Couleur des logos des compétences et outils*/
+.fa-html5
+{
+    color:orange;
+}
+
+.fa-css3
+{
+    color: blue;
+}
+
+.fa-js
+{
+    color: yellow;
+}
+
+.fa-react
+{
+    color:aqua;
+}
+
+.fa-database
+{
+    color: tomato;
+}
+
+.fa-php
+{
+    color: plum;
+}
+
+.fa-bug
+{
+    color: rgb(203, 71, 0);
+}
+
+
+.fa-git-alt
+{
+    color: tomato;
+}
+
+.fa-figma
+{
+    color: orchid;
+}
+
+.fa-envira
+{
+    color: green;
+}
+
+.fa-lightbulb
+{
+    color: yellow;
+}
+
+.fa-w
+{
+    color: blue;
+}
+
+.fa-font-awesome
+{
+    color: darkcyan;
+}
+/* Couleur des logos des compétences */

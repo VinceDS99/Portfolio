@@ -3,7 +3,8 @@ export const projetsList =
 	{
 		"id": "projet1",
 		"title": "Booki",
-		"link": "https://github.com/VinceDS99/Projet-2-Booki",
+		"link": "",		
+		"github": "https://github.com/VinceDS99/Projet-2-Booki",
 		"date": "10/02/2023",
 		"cover": "./Projets/Booki/0.webp",
 		"pictures": [
@@ -20,7 +21,7 @@ export const projetsList =
 			"CSS",
 		],
 		"tools": [
-			"GitHub",
+			"Git Hub",
 			"Figma"
 		],
 		"figma": "https://www.figma.com/file/aen32jonHhD7JnIEL2b3sE/ARCHIVED-Maquettes-Booki-(desktop%2C-mobile%2C-tablette)?type=design&node-id=3-0&mode=design",
@@ -29,7 +30,8 @@ export const projetsList =
 	{
 		"id": "projet2",
 		"title": "Bluel",
-		"link": "https://github.com/VinceDS99/Projet-3-Bluel",
+		"link": "",		
+		"github": "https://github.com/VinceDS99/Projet-3-Bluel",
 		"date": "17/03/2023",
 		"cover": "./Projets/Bluel/0.webp",
 		"pictures": [
@@ -48,7 +50,7 @@ export const projetsList =
 			"Javascript",
 		],
 		"tools": [
-			"GitHub",
+			"Git Hub",
 			"Figma"
 		],
 		"figma": "https://www.figma.com/file/kfKHknHySoTibZfdolGAX6/Desktop?type=design&node-id=0-1&mode=design",
@@ -57,8 +59,9 @@ export const projetsList =
 	{
 		"id": "projet3",
 		"title": "Nina Carducci",
-		"link": "https://github.com/VinceDS99/Nina-carducci-Site",
-		"date": "09/05/2023",
+		"link": "",		
+		"github": "https://github.com/VinceDS99/Nina-carducci-Site",
+		"date": "01/06/2023",
 		"cover": "./Projets/NinaCarducci/0.webp",
 		"pictures": [
 			"./Projets/NinaCarducci/1.webp",
@@ -76,7 +79,7 @@ export const projetsList =
 			"Lighthouse",
 			"Schema.org",
 			"Wave",
-			"Github"
+			"Git ub"
 		],
 		"figma": "",
 		"context": "Projet de la formation de développeur web Open Classroom"
@@ -84,29 +87,31 @@ export const projetsList =
 	{
 		"id": "projet4",
 		"title": "Kasa",
-		"link": "https://github.com/VinceDS99/Projet-6-Kasa",
+		"link": "",		
+		"github": "https://github.com/VinceDS99/Projet-6-Kasa",
 		"date": "30/06/2023",
 		"cover": "./Projets/Kasa/0.webp",
 		"pictures": [
-			"./Projets/Kasa/1.webp",
+			"./Projets/Kasa/0.webp",
 			"./Projets/Kasa/2.webp",
 			"./Projets/Kasa/3.webp",
 			"./Projets/Kasa/4.webp",
-			"./Projets/Kasa/5.webp"
+			"./Projets/Kasa/5.webp",
+			"./Projets/Kasa/6.webp"
 		],
 		"description": "Ce site est un projet réalisé fait avec React pour la première fois. J'ai fais tout ce site en me basant sur la maquette. A noter : - création de composants ré-utilisable  - création à partir de rien d'un carrousel",
 		"difficulty": "6",
 		"skills": [
 			"React",
 			"JSX",
-			"Create Reacte App",
 			"Javascript",			
 			"HTML",
 			"CSS",
 		],
 		"tools": [
 			"Figma",
-			"Github",
+			"Git Hub",
+			"Create React App",
 		],
 		"figma": "https://www.figma.com/file/bAnXDNqRKCRRP8mY2gcb5p/ARCHIVE-UI-Design-Kasa-FR?type=design&node-id=3-0&mode=design",
 		"context": "Projet de la formation de développeur web Open Classroom"
@@ -114,7 +119,8 @@ export const projetsList =
 	{
 		"id": "projet5",
 		"title": "Jarditou",
-		"link": "",
+		"link": "",		
+		"github": "",
 		"date": "10/06/2023",
 		"cover": "./Projets/Jarditou/0.webp",
 		"pictures": [
@@ -127,7 +133,7 @@ export const projetsList =
 			"CSS"
 		],
 		"tools": [
-			"Github"
+			"Git Hub"
 		],
 		"figma": "",
 		"context": "Projet de la formation de découverte du développement web de l' Afpa"

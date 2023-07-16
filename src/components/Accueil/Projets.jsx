@@ -23,8 +23,8 @@ export default function Projets()
                         {projetsList.map((projet) => 
                                             (
                                                 <div className='projets-item' key={projet.id}>
-                                                    <img src={projet.cover} alt='Image du projet' className='img-projet' ></img>
-                                                    <Link to={"Fiche/" + projet.id}  className='loc-text'>
+                                                    <Link to={"FicheDetail/" + projet.id}  className='loc-text'>
+                                                        <img src={projet.cover} alt='Image du projet' className='img-projet' ></img>
                                                     </Link>
                                                 </div>
                                             ))

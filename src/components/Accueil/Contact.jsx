@@ -1,9 +1,14 @@
 import '../../styles/Accueil/Contact.css'
+import msg from "../../assets/contact.webp"
 
 
 export default function Contact() 
 {
 	return <div className='contact-bloc' id='contact'>
+
+        <img src={msg} alt="Photo d'un homme recevant un message" className='contact-img'/>
+
+
                         <div className='contact'>
                                 <h2>Formulaire de contact</h2>
                                 <form action="/action_page.php">

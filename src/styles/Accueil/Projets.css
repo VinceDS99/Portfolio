@@ -20,6 +20,7 @@
 .projets-text 
 {
     text-align: center;
+    color: rgb(121, 0, 0);
 }
 
 .projets-btns
@@ -71,16 +72,16 @@
     width: 10%;
     height: 30px;
 
-    background-color: white;
+    background-color: rgb(255, 255, 255);;
     border: 1px solid;
-    border-color: red;
+    border-color: rgb(121, 0, 0);
     cursor: pointer;
-    color: red;
+    color: rgb(121, 0, 0);
 }
 
 #projets-btn:hover
 {
-    background-color: red;
+    background-color: rgb(121, 0, 0);;
     cursor: pointer;
     color: white;
 }
