@@ -6,6 +6,7 @@ import '../styles/Details/Details.css'
 import Skills from '../components/Details/Skills'
 import Tools from '../components/Details/Tools'
 import Carrousel from '../components/Details/Carrousel'
+import NavigationError from "../components/NavigationError"
 
 export default function Details() 
 {
@@ -13,6 +14,8 @@ export default function Details()
         const taille = projetsList.find(element => element.id === params.id)
 
         return <div className='' >
+
+                    <NavigationError/>
                         
                     {projetsList.filter(projet => projet.id === params.id).map((filteredProject,index) => 
 
