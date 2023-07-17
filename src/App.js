@@ -12,6 +12,7 @@ export default function App()
 			<Header/>
 			<Routes>
 				<Route path="/" element={<Accueil/>} />
+				<Route path="/Portfolio" element={<Accueil/>} />
 				<Route path="/FicheDetail/:id" element={<Details/>} />
 				<Route path="/*" element={<Error/>} />
 			</Routes>
