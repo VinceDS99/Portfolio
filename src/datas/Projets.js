@@ -3,16 +3,18 @@ export const projetsList =
 	{
 		"id": "projet1",
 		"title": "Booki",
-		"link": "",		
+		"link": "https://vinceds99.github.io/Projet-2-Booki/",		
 		"github": "https://github.com/VinceDS99/Projet-2-Booki",
 		"date": "10/02/2023",
-		"cover": "./Projets/Booki/0.webp",
+		"cover": "https://pbs.twimg.com/media/F1RU8eBXoAA0ivU?format=jpg&name=4096x4096",
 		"pictures": [
-			"./Projets/Booki/1.webp",
-			"./Projets/Booki/2.webp",
-			"./Projets/Booki/3.webp",
-			"./Projets/Booki/4.webp",
-			"./Projets/Booki/5.webp"
+			"https://pbs.twimg.com/media/F1RU8eBWYAAxifU?format=jpg&name=small",
+			"https://pbs.twimg.com/media/F1RU8eJXsAA-Jve?format=jpg&name=small",
+			"https://pbs.twimg.com/media/F1RU8eIWwAMKHgj?format=jpg&name=small",
+			"https://pbs.twimg.com/media/F1RVvbMXgAIK2ia?format=jpg&name=large",
+			"https://pbs.twimg.com/media/F1RVvbIXsAArT9X?format=jpg&name=900x900",
+			"https://pbs.twimg.com/media/F1RVvbJXoAEpWrt?format=jpg&name=900x900",
+			"https://pbs.twimg.com/media/F1RVvbHWcAEIvgi?format=jpg&name=900x900"
 		],
 		"description": "Ce site est un de mes premiers projets. Je l'ai réalisé en reproduisant une maquette Figma. Tout est fait et uniquement avec HTML et CSS.",
 		"difficulty": "3",
@@ -33,14 +35,14 @@ export const projetsList =
 		"link": "",		
 		"github": "https://github.com/VinceDS99/Projet-3-Bluel",
 		"date": "17/03/2023",
-		"cover": "./Projets/Bluel/0.webp",
+		"cover": "https://pbs.twimg.com/media/F1RWUIhXoAEhmU-?format=jpg&name=900x900",
 		"pictures": [
-			"./Projets/Bluel/1.webp",
-			"./Projets/Bluel/2.webp",
-			"./Projets/Bluel/3.webp",
-			"./Projets/Bluel/4.webp",
-			"./Projets/Bluel/5.webp",
-			"./Projets/Bluel/6.webp"
+			"https://pbs.twimg.com/media/F1RWUIYXsAAkljx?format=jpg&name=360x360",
+			"https://pbs.twimg.com/media/F1RWUIcWIAIVH3U?format=jpg&name=360x360",
+			"https://pbs.twimg.com/media/F1RWUIyWYAAQHm7?format=jpg&name=small",
+			"https://pbs.twimg.com/media/F1RWgMSXoAIH2Hd?format=jpg&name=900x900",
+			"https://pbs.twimg.com/media/F1RWgMbWIAAKDdy?format=jpg&name=360x360",
+			"https://pbs.twimg.com/media/F1RWgMVWAAAJS3P?format=jpg&name=360x360"
 		],
 		"description": "Ce site est un de mes premiers projets. J'ai surtout fait la partie technique du site ainsi qu'un peu de visuel sur la page d'accueil après connexion avec le design des modales. Niveau technique, j'ai réalisé le fonctionnement des boutons de filtres, le système de connexion ainsi que l'ajout et la suppression de projet avec Javascript. L'API était déjà crée.",
 		"difficulty": "4",
@@ -59,14 +61,14 @@ export const projetsList =
 	{
 		"id": "projet3",
 		"title": "Nina Carducci",
-		"link": "",		
+		"link": "https://vinceds99.github.io/Nina-carducci-Site/",		
 		"github": "https://github.com/VinceDS99/Nina-carducci-Site",
 		"date": "01/06/2023",
-		"cover": "./Projets/NinaCarducci/0.webp",
+		"cover": "https://pbs.twimg.com/media/F1RWs7IXoAAj6EO?format=jpg&name=medium",
 		"pictures": [
-			"./Projets/NinaCarducci/1.webp",
-			"./Projets/NinaCarducci/2.webp",
-			"./Projets/NinaCarducci/3.webp"
+			"https://pbs.twimg.com/media/F1RWs7tXsAIWE0v?format=jpg&name=small",
+			"https://pbs.twimg.com/media/F1RWs8FWwAInR05?format=jpg&name=360x360",
+			"https://pbs.twimg.com/media/F1RWs8ZWAAEu95Q?format=jpg&name=small"
 		],
 		"description": "Ce site est une mise en situtation : je devais améliorer son SEO, ses performances, son accessibilité et corriger des bugs. J'ai donc changer les formats des images que j'ai égaelement re-dimensioner. J'ai aussi réglé deux bugs au niveau des boutons de tri. Pour l'accessibilité, j'ai arrangé les problèmes de contraste avec Wave. Pour le SEO et les performances, j'ai utilisé lighthouse. Lien du code avant modification : https://github.com/nina-carducci/nina-carducci.github.io",
 		"difficulty": "5",
@@ -90,14 +92,14 @@ export const projetsList =
 		"link": "",		
 		"github": "https://github.com/VinceDS99/Projet-6-Kasa",
 		"date": "30/06/2023",
-		"cover": "./Projets/Kasa/0.webp",
+		"cover": "https://pbs.twimg.com/media/F1RXP4bXoAg5-hV?format=jpg&name=900x900",
 		"pictures": [
-			"./Projets/Kasa/0.webp",
-			"./Projets/Kasa/2.webp",
-			"./Projets/Kasa/3.webp",
-			"./Projets/Kasa/4.webp",
-			"./Projets/Kasa/5.webp",
-			"./Projets/Kasa/6.webp"
+			"https://pbs.twimg.com/media/F1RXP4aWcAAQPt-?format=jpg&name=small",
+			"https://pbs.twimg.com/media/F1RXP4cWYAERrPi?format=jpg&name=360x360",
+			"https://pbs.twimg.com/media/F1RXP4aWIAA7KjW?format=jpg&name=360x360",
+			"https://pbs.twimg.com/media/F1RXZT7WIAEn4PX?format=jpg&name=small",
+			"https://pbs.twimg.com/media/F1RXZUIWIAAw2kG?format=jpg&name=small",
+			"https://pbs.twimg.com/media/F1RXZUKWcAY1vAH?format=jpg&name=small"
 		],
 		"description": "Ce site est un projet réalisé fait avec React pour la première fois. J'ai fais tout ce site en me basant sur la maquette. A noter : - création de composants ré-utilisable  - création à partir de rien d'un carrousel",
 		"difficulty": "6",
@@ -122,9 +124,9 @@ export const projetsList =
 		"link": "",		
 		"github": "",
 		"date": "10/06/2023",
-		"cover": "./Projets/Jarditou/0.webp",
+		"cover": "https://pbs.twimg.com/media/F1RSh0XWAAE0uh1?format=jpg&name=small",
 		"pictures": [
-			"./Projets/Jarditou/0.webp"
+			"https://pbs.twimg.com/media/F1RSh0XWAAE0uh1?format=jpg&name=small"
 		],
 		"description": "Ce site est mon premier projet de développeur : il a été réalisé lors d'une formation où je découvrais HTML et CSS pour la première fois.",
 		"difficulty": "1",

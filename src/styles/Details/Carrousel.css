@@ -1,0 +1,37 @@
+.bloc-carrousel
+{
+    display: flex;
+    justify-content: center;
+    width: 85%;
+    margin-bottom: 1%;
+    margin-left: 8%;
+}
+
+.carrousel-image
+{
+    width: inherit;
+    height: 300px;
+    object-fit: contain;
+    cursor: pointer;
+}
+
+.chevron
+{
+    cursor: pointer;
+    font-size: 40px;
+    color: rgb(152, 0, 0);
+}
+
+.bloc-num
+{
+    margin-left: 50%;
+    color: rgb(152, 0, 0);
+    font-weight: bold;
+}
+
+.bloc-arrow
+{
+    margin-top: 15%;
+    margin-left: 1%;
+    margin-right:1%;
+}

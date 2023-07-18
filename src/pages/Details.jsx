@@ -21,45 +21,39 @@ export default function Details()
 
                     <div key={index}>
                             <div className="details-bloc" >
-                                    <div className='bloc-title'>
-                                            <h1 className="details-titre1">
-                                            Nom du projet : {filteredProject.title}
-                                            </h1>
-                                            <h2 className="details-titre2">
-                                            Date de fin du projet : {filteredProject.date}
-                                            </h2>
-                                    </div>
+                                <div className='bloc-title'>
+                                        <h1 className="details-titre1">
+                                        Nom du projet : {filteredProject.title}
+                                        </h1>
+                                        <h2 className="details-titre2">
+                                        Date de fin du projet : {filteredProject.date}
+                                        </h2>
+                                </div>  
+                                <Carrousel/>
+                                <div className='details-bloc-desc'>
+                                    <h2 className="details-desc-titre1">
+                                        Description du projet 
+                                    </h2>
+                                    <div className='details-desc'>
+                                        <p className="details-desc-txt">
+                                            {filteredProject.description}
+                                        </p>  
 
-
-                                    <Carrousel/>
-
+                                            
                                     <div className="details-skills-tools">
                                         <div className="details-skills">
-                                            <h2>Compétences utilisés dans ce projet</h2>
                                             <Skills/>
                                         </div>
 
                                         <div className="details-tools">
-                                            <h2>Outils utilisés dans ce projet</h2>
                                             <Tools/>
                                         </div>
-
                                     </div>
-
-
-                                    <div className='details-bloc-desc'>
-                                        <h2 className="details-desc-titre1">
-                                            Description du projet 
-                                        </h2>
-                                        <div className='details-desc'>
-                                            <p>
-                                                {filteredProject.description}
-                                            </p>  
                                             
+
                                             <div className="details-bloc-links">
 
-
-                                                {taille.github.length > 1 && 
+                                                {taille.github.length > 5 && 
                                                 (
                                                 <div className="details-links">
                                                     <Link to={filteredProject.github} target="_blank" className="details-link">
@@ -70,7 +64,18 @@ export default function Details()
                                                 )
                                                 }
 
-                                                {taille.figma.length > 1 && 
+                                                {taille.link.length > 5 && 
+                                                (
+                                                <div className="details-links">
+                                                    <Link to={filteredProject.link} target="_blank" className="details-link">
+                                                        <i class="fa-solid fa-link ilink"></i>
+                                                        <p className="details-link-txt">Le site du projet</p>
+                                                    </Link>
+                                                </div>
+                                                )
+                                                }
+
+                                                {taille.figma.length > 5 && 
                                                 (
                                                 <div className="details-links">
                                                     <Link to={filteredProject.figma} target="_blank" className="details-link">
@@ -84,8 +89,6 @@ export default function Details()
 
                                         </div>
                                     </div>
-
-
                             </div>
                     </div>                        
                     )

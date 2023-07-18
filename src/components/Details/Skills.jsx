@@ -8,12 +8,27 @@ export default function Skills()
         
         const foundSkills = projetsList.find(element => element.id === params.id);
         
-    return <div className="bloc-skills">
-                {foundSkills.skills.map
-                    ((tag,index) =>
-                        <p className="skills" key={index}>{tag}</p>                    
+    return <div className="">
+                
+                
+                {foundSkills.skills.length > 1 && (
+                    <h2>Compétences utilisés dans ce projet</h2>
+                        )
+                }
+
+                {foundSkills.skills.length  === 1 && (
+                    <h2>Compétence utilisé dans ce projet</h2>
                     )
                 }
+
+                <div className="bloc-skills">
+                    {foundSkills.skills.map
+                        ((tag,index) =>
+                            <p className="skills" key={index}>{tag}</p>                    
+                        )
+                    }
+                </div>
+
             </div> 
 }
 

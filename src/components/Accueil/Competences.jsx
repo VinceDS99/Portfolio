@@ -1,6 +1,6 @@
 import '../../styles/Accueil/Competences.css'
 import {skillsList} from '../../datas/Competences'
-import brain from '../../assets/brain.jpg'
+import brain from '../../assets/skill.webp'
 
 export default function Competences() 
 {

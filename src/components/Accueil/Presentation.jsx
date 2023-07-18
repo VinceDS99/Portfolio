@@ -1,5 +1,6 @@
 import '../../styles/Accueil/Presentation.css'
 import Logo from "../../assets/Logo-w-short.png"
+import Man from "../../assets/Man.webp"
 
 const PDF_FILE_URL = 'http://localhost:3000/Curriculum Vitae-Vincent Dos Santos.pdf'
 
@@ -16,9 +17,11 @@ export default function Presentation()
     }
 
 
-
 	return <div className='presentation-bloc'>
-                    <img src={Logo} alt="Logo" className='Logo'/>
+                    <div className='presentation-img'>
+                        <img src={Man} alt="Man" className='Man'/>
+                        <img src={Logo} alt="Logo" className='Logo'/>
+                    </div>
 
                     <div className='presentation'>
                         <span className='presentation-text'>

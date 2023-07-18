@@ -2,6 +2,7 @@ import React  from "react";
 import { useParams } from "react-router-dom"
 import { projetsList } from '../datas/Projets'
 import { Navigate } from 'react-router-dom';
+import swal from 'sweetalert';
 
 export default function NavigationError() 
 {
@@ -11,7 +12,17 @@ export default function NavigationError()
 
         if (found === undefined) 
         {
-                return <Navigate to="/ID-Incorrect" />;
+                swal
+                (
+                        {
+                                title: "Erreur 404",
+                                text: "Mauvais ID entré ou la page n'est plus disponible",
+                                button: "Retour à l'accueil",
+                                className: "alert",
+                        }
+                );
+
+                return <Navigate to="/" />;
         }
 
         return 

@@ -53,21 +53,33 @@ export default function Carrousel()
             numDiv.innerHTML = num
         }
 
-    return <div className="Bloc-Image">
-                <img src={pictures} alt="Image du projet" className='LogoKasa' id="imageCarousel"/>
-                
-                {taille > 1 && (
-                    <div className="Bloc-Fleches" id="arrows">
-                        <i className="fa-solid fa-chevron-left" id='arrowLeft' onClick={() => getPicturePrev()}></i>
-                        <i className="fa-solid fa-chevron-right" id='arrowRight' onClick={() => getPictureNext()}></i><br></br>
-                    </div>
-                    )
-                }
+    return <div>
+                <div className="bloc-carrousel">
 
-                <div className="Bloc-Numeros">
-                    <span id="numeroImage">{num}</span><span>/{taille}</span>
+                
+                    {taille > 1 && (
+                        <div className="bloc-arrow" id="arrows">
+                            <i className="fa-solid fa-chevron-left chevron" id='arrowLeft' onClick={() => getPicturePrev()}></i>
+                        </div>
+                        )
+                    }
+
+                    <img src={pictures} alt="Image du projet" className='carrousel-image' id="imageCarousel"/>
+                    
+                    {taille > 1 && (
+                        <div className="bloc-arrow" id="arrows">
+                            <i className="fa-solid fa-chevron-right chevron" id='arrowRight' onClick={() => getPictureNext()}></i><br></br>
+                        </div>
+                        )
+                    }
+
+
+                </div> 
+
+                <div className="bloc-num">
+                <span id="numeroImage">{num}</span><span>/{taille}</span>
                 </div>
-            </div> 
-            
+
+            </div>
 }
 

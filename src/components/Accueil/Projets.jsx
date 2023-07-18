@@ -24,7 +24,7 @@ export default function Projets()
                                             (
                                                 <div className='projets-item' key={projet.id}>
                                                     <Link to={"FicheDetail/" + projet.id}  className='loc-text'>
-                                                        <img src={projet.cover} alt='Image du projet' className='img-projet' ></img>
+                                                        <img src={projet.cover} alt='Couverture du projet' className='img-projet' ></img>
                                                     </Link>
                                                 </div>
                                             ))
