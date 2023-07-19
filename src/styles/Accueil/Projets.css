@@ -3,12 +3,9 @@
     display: flex;
     flex-direction: column;
     width: 100%;
-
     justify-content: center;
-    border: solid;
+    height: 1300px;
 
-    margin-top: 10%;
-    margin-bottom: 5%;
 }
 
 .projets
@@ -21,6 +18,7 @@
 {
     text-align: center;
     color: rgb(121, 0, 0);
+    margin-top: 5%;
 }
 
 .projets-btns
@@ -39,8 +37,9 @@
     justify-content: center;
     flex-wrap: wrap;
 
-    background-color: rgba(215, 215, 215, 0.277);
-
+    background-image: url(https://t4.ftcdn.net/jpg/05/38/50/07/360_F_538500757_MRYUwTiPJG22xyCshZHYcdUTyVKywfgF.jpg);
+    border-radius: 5%;
+    background-size: auto;
     gap: 5%;
     margin-top: 5%;
     margin-left: 10%;

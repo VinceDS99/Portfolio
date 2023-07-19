@@ -7,6 +7,7 @@ import Competences from '../components/Accueil/Competences'
 export default function Accueil() 
 {
 	return <div className="all">
+
                 <Presentation/>
                 
                 <Projets/>

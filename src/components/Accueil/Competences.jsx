@@ -43,7 +43,7 @@ export default function Competences()
     let phpTab = Ratings('PHP');
     let debugoptiTab = Ratings('Debug/Optimisation');
     
-	return <div className='competences-bloc'>
+	return <div className='competences-bloc' id='skills'>
 
                 <h2 className='competences-title'>
                     Mes compétences actuelle :
@@ -58,7 +58,7 @@ export default function Competences()
                         <div className='competences'>
 
                             <div className='competences-text'>
-                                <i class="fa fa-html5 comp"></i><span> HTML </span>    
+                                <i className="fa fa-html5 comp"></i><span> HTML </span>    
                             </div>
 
                             <div className='competences-stars'>
@@ -74,7 +74,7 @@ export default function Competences()
                         <div className='competences'>
 
                             <div className='competences-text'>
-                                <i class="fa fa-css3 comp"></i><span> CSS </span>    
+                                <i className="fa fa-css3 comp"></i><span> CSS </span>    
                             </div>
 
                             <div className='competences-stars'>
@@ -91,7 +91,7 @@ export default function Competences()
                         <div className='competences'>
 
                             <div className='competences-text'>
-                                <i class="fab fa-js comp"></i><span> Javascript </span>    
+                                <i className="fab fa-js comp"></i><span> Javascript </span>    
                             </div>
 
                             <div className='competences-stars'>
@@ -108,7 +108,7 @@ export default function Competences()
                         <div className='competences'>
 
                             <div className='competences-text'>
-                                <i class="fa-brands fa-react comp"></i><span> React </span>    
+                                <i className="fa-brands fa-react comp"></i><span> React </span>    
                             </div>
 
                             <div className='competences-stars'>
@@ -125,7 +125,7 @@ export default function Competences()
                         <div className='competences'>
 
                             <div className='competences-text'>
-                                <i class="fa-solid fa-database comp"></i><span> MySQL </span>    
+                                <i className="fa-solid fa-database comp"></i><span> MySQL </span>    
                             </div>
 
                             <div className='competences-stars'>
@@ -142,7 +142,7 @@ export default function Competences()
                         <div className='competences'>
 
                             <div className='competences-text'>
-                                <i class="fa-brands fa-php comp"></i><span> PHP </span>    
+                                <i className="fa-brands fa-php comp"></i><span> PHP </span>    
                             </div>
 
                             <div className='competences-stars'>
@@ -159,7 +159,7 @@ export default function Competences()
                         <div className='competences'>
 
                             <div className='competences-text'>
-                                <i class="fa-solid fa-bug comp"></i><span> Debug et optimisation </span>    
+                                <i className="fa-solid fa-bug comp"></i><span> Debug et optimisation </span>    
                             </div>
 
                             <div className='competences-stars'>

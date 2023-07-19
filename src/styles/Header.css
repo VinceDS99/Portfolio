@@ -1,7 +1,13 @@
 .header
 {
     display: flex;
+    background-color: black;
+    position: sticky;
+    top: 0;
+    height: 80px;
+    z-index: 100;
 }
+
 
 .header-bloc
 {
@@ -10,12 +16,29 @@
     justify-content: space-between;
 
     width: 100%;
+    height: inherit;
     border-bottom-right-radius: 20%;
     border-bottom-left-radius: 20%;
     border-bottom: solid;
 
     background-color: black;
-    border-color: white;
+    border-width: 2px;
+}
+
+.header-bloc-scroll
+{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+
+    width: 100%;
+    height: inherit;
+    border-bottom-right-radius: 20%;
+    border-bottom-left-radius: 20%;
+    border-bottom: solid;
+
+    background-color: black;
+    background: url(https://t4.ftcdn.net/jpg/02/00/68/69/360_F_200686969_GJ7zbz2qaNIE4dyHSbZkQXvNPzRuwlr3.jpg);
     border-width: 2px;
 }
 
@@ -25,7 +48,7 @@
     flex-direction: row;
     justify-content: space-between;
 
-    width: 25%;
+    width: 50%;
 }
 
 .nav-text 
@@ -34,6 +57,14 @@
     color: white;
     margin-top: 5%;
     margin-right: 10%;
+}
+
+.nav-text-actif
+{
+    text-decoration: none;
+    margin-top: 5%;
+    margin-right: 10%;
+    color: rgb(121, 0, 0);
 }
 
 .nav-text:hover

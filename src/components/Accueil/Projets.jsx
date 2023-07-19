@@ -4,7 +4,7 @@ import {Link} from "react-router-dom"
 
 export default function Projets() 
 {
-	return <div className='projets-bloc'>
+	return <div className='projets-bloc' id='projets'>
 
                 <div className='projets'>
                     <h1 className='projets-text'>

@@ -17,7 +17,7 @@ export default function Presentation()
     }
 
 
-	return <div className='presentation-bloc'>
+	return <div className='presentation-bloc' id='presentation'>
                     <div className='presentation-img'>
                         <img src={Man} alt="Man" className='Man'/>
                         <img src={Logo} alt="Logo" className='Logo'/>
@@ -25,7 +25,9 @@ export default function Presentation()
 
                     <div className='presentation'>
                         <span className='presentation-text'>
-                            Bonjour ! Je m'appelle Vincent Dos Santos, je suis Développeur junior et voici mon portfolio !<br/>
+                            <h2>Bonjour ! </h2>
+
+                            Je m'appelle Vincent Dos Santos, je suis Développeur junior et voici mon portfolio !<br/>
                             Je viens de terminer ma formation de développement web de niveau bac +2 et je suis maintenant à la recherche d'un emploi dans ce domaine.<br/> 
                             Je souhaite devenir un développeur spécialisé dans le back-end et j'aimerais donc un travail me permettant d'atteindre cet objectif.
 <button onClick= {()=>{downloadFileAtURL(PDF_FILE_URL)}} className="btn"> <i className="fa fa-download"></i> Télécharger mon CV ici !</button>

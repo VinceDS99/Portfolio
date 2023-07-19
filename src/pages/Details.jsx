@@ -39,8 +39,12 @@ export default function Details()
                                             {filteredProject.description}
                                         </p>  
 
+                                        <h2>Contexte de la réalisation du projet :</h2>
+                                        <p className="details-desc-txt">
+                                            {filteredProject.context}
+                                        </p>
                                             
-                                    <div className="details-skills-tools">
+                                        <div className="details-skills-tools">
                                         <div className="details-skills">
                                             <Skills/>
                                         </div>
@@ -68,7 +72,7 @@ export default function Details()
                                                 (
                                                 <div className="details-links">
                                                     <Link to={filteredProject.link} target="_blank" className="details-link">
-                                                        <i class="fa-solid fa-link ilink"></i>
+                                                        <i className="fa-solid fa-link ilink"></i>
                                                         <p className="details-link-txt">Le site du projet</p>
                                                     </Link>
                                                 </div>

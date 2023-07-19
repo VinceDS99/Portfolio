@@ -81,7 +81,7 @@ export const projetsList =
 			"Lighthouse",
 			"Schema.org",
 			"Wave",
-			"Git ub"
+			"Git Hub"
 		],
 		"figma": "",
 		"context": "Projet de la formation de développeur web Open Classroom"
@@ -139,5 +139,32 @@ export const projetsList =
 		],
 		"figma": "",
 		"context": "Projet de la formation de découverte du développement web de l' Afpa"
+	},
+	{
+		"id": "projet6",
+		"title": "Mon vieux grimoire",
+		"link": "",		
+		"github": "https://github.com/VinceDS99/Projet-7-Mon-Vieux-Grimoire",
+		"date": "15/07/2023",
+		"cover": "https://pbs.twimg.com/media/F1W0wrkXgAEAPyb?format=jpg&name=small",
+		"pictures": [
+			"https://pbs.twimg.com/media/F1W1KuRXgAA01Je?format=jpg&name=small",
+			"https://pbs.twimg.com/media/F1WymVwWAAANOHG?format=jpg&name=360x360",
+			"https://pbs.twimg.com/media/F1WymVuWYAEGI3A?format=jpg&name=360x360",
+			"https://pbs.twimg.com/media/F1WyotCWcAIpX32?format=jpg&name=360x360",
+			"https://pbs.twimg.com/media/F1WyotQXsAAH82d?format=jpg&name=360x360",
+			"https://pbs.twimg.com/media/F1Wyot1XwAI6qmw?format=jpg&name=small"
+		],
+		"description": "Sur ce site je me suis occupé uniquement du back-end. A noter : - Système de connexion  - Connexion à une base de données- Mise en place du CRUD - Conversion de fichier avec le middleware sharp",
+		"difficulty": "5",
+		"skills": [
+			"Javascript",			
+		],
+		"tools": [
+			"Mongo DB",
+			"Git Hub"
+		],
+		"figma": "",
+		"context": "Projet de la formation de développeur web Open Classroom"
 	}
 ]

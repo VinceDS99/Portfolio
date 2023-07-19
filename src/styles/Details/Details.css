@@ -147,4 +147,9 @@ a
     background-color: rgb(121, 0, 0)!important;
     transform: scale(1.1);
 }
+
+.swal-icon
+{
+    color: rgb(121, 0, 0);
+}
 /* Thème de l'alerte page 404 */
