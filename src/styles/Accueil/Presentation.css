@@ -7,7 +7,7 @@ html
 .presentation-bloc
 {
     display: flex;
-    height: 500px;
+    height: clamp(100px, 500px, 10000px);
     width: 100%;
     border-bottom: solid;
     border-top: solid;

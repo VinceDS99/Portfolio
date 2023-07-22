@@ -35,8 +35,14 @@
 
 .details-desc-txt
 {
-    text-align: center;
+    text-align: justify;
     margin-bottom: 5%;
+}
+
+.details-desc-context
+{
+    text-align: center;
+    margin-bottom:5%;
 }
 
 .details-links

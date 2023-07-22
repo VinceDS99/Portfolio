@@ -78,10 +78,10 @@ export default function Header()
 
                         <nav className="nav">
                                 <Link to="/" className="nav-text">Accueil</Link>
-                                <a href="#presentation" className={colorPres ? 'nav-text-actif' : 'nav-text'}>Présentation</a>
-                                <a href="#projets" className={colorProj ? 'nav-text-actif' : 'nav-text'}>Projets</a>
-                                <a href="#skills" className={colorComp ? 'nav-text-actif' : 'nav-text'}>Competences</a>
-                                <a href="#contact" className={colorCont ? 'nav-text-actif' : 'nav-text'}>Contact</a>
+                                <a href="#presentation" className={colorPres ? 'nav-text-actif' : 'nav-text'} id="nav-presentation">Présentation</a>
+                                <a href="#projets" className={colorProj ? 'nav-text-actif' : 'nav-text'} id="nav-projets">Projets</a>
+                                <a href="#skills" className={colorComp ? 'nav-text-actif' : 'nav-text'} id="nav-competences">Competences</a>
+                                <a href="#contact" className={colorCont ? 'nav-text-actif' : 'nav-text'} id="nav-contact">Contact</a>
                         </nav>
                 </div>
 

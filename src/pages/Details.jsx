@@ -12,6 +12,11 @@ export default function Details()
 {
         const params = useParams()
         const taille = projetsList.find(element => element.id === params.id)
+        console.log(taille.date)
+
+        var dateDMY = taille.date
+        const dateFin = new Intl.DateTimeFormat('fr-FR', {year: 'numeric', month: '2-digit',day: '2-digit'}).format(dateDMY);
+
 
         return <div className='' >
 
@@ -26,7 +31,7 @@ export default function Details()
                                         Nom du projet : {filteredProject.title}
                                         </h1>
                                         <h2 className="details-titre2">
-                                        Date de fin du projet : {filteredProject.date}
+                                        Date de fin du projet : {dateFin}
                                         </h2>
                                 </div>  
                                 <Carrousel/>
@@ -38,9 +43,19 @@ export default function Details()
                                         <p className="details-desc-txt">
                                             {filteredProject.description}
                                         </p>  
+                                        {filteredProject.tasks.length > 0 &&
+                                            <h2>Tâches principales réalisés :</h2>
+                                        }
+                                        
+                                        {filteredProject.tasks.length > 0 && filteredProject.tasks.map
+                                            ((task,index) =>
+                                                <p className="detais-desc-task" key={index}>- {task}</p>                    
+                                            )
+                                        }
+                                        
 
                                         <h2>Contexte de la réalisation du projet :</h2>
-                                        <p className="details-desc-txt">
+                                        <p className="details-desc-context">
                                             {filteredProject.context}
                                         </p>
                                             
