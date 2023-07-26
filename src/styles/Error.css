@@ -1,0 +1,28 @@
+.Error
+{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.E404
+{
+    display: flex;
+    color: rgb(121, 0, 0);
+    font-weight: bold;
+    font-size: 100px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.linkError
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    color: black;
+    text-decoration: underline;
+}

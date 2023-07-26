@@ -12,6 +12,7 @@ export default function Header()
         const [colorCont, setColorCont] = useState(false)
 
         const changeSticky = () => {
+                // console.log(window.scrollY)
                 if (window.scrollY > 90 )
                 {
                         setSticky(true)
@@ -31,7 +32,7 @@ export default function Header()
                         setColorCont(false)
                 }
 
-                else if (window.scrollY <= 575)
+                else if (window.scrollY <= 515)
                 {
                         setColorPres(true)
 
@@ -40,7 +41,7 @@ export default function Header()
                         setColorCont(false)
                 }
 
-                else if (window.scrollY >= 576 && window.scrollY <= 1807)
+                else if (window.scrollY >= 516 && window.scrollY <= 3025)
                 {
                         setColorProj(true)
 
@@ -48,7 +49,7 @@ export default function Header()
                         setColorComp(false)
                         setColorCont(false)
                 }
-                else if (window.scrollY >= 1808 && window.scrollY <= 2830)
+                else if (window.scrollY >= 3026 && window.scrollY <= 3967)
                 {
                         setColorComp(true)
 
@@ -56,7 +57,7 @@ export default function Header()
                         setColorProj(false)
                         setColorCont(false)
                 }
-                else if (window.scrollY >= 2831)
+                else if (window.scrollY >= 3968)
                 {
                         setColorCont(true)
 

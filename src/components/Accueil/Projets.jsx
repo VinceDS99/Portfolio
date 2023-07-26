@@ -248,17 +248,17 @@ export default function Projets()
             
             console.log(projects)
 
-	return <div className='projets-bloc' id='projets'>
+	return <section className='projets-bloc' id='projets'>
 
                 <div className='projets'>
                     <h1 className='projets-text'>
-                        Voici différents projets réalisé au cours de mes formations ou pendant mon temps libre :                
+                        Voici différents projets réalisés au cours de mes formations ou pendant mon temps libre :                
                     </h1>
 
                     <div className='projets-btns'>
-                        <button title='Filtrer par compétences utilisés' className={isCompsClick ? 'projets-btn-click' : 'projets-btn'} onClick={compsButtonClick}> Compétences utilisés</button>
+                        <button title='Filtrer par compétences utilisés' className={isCompsClick ? 'projets-btn-click' : 'projets-btn'} onClick={compsButtonClick}> Compétences utilisées</button>
                         <button title="Trier en ayant les projets les plus récents d'abord" className={isNewestClick ? 'projets-btn-click' : 'projets-btn'} onClick={newestButtonClick}> Projets les plus récents</button>
-                        <button title="Trier en ayant les projets les plus anciens d'abord" className={isOldestClick ? 'projets-btn-click' : 'projets-btn'} onClick={oldestButtonClick}> Projets les plus ancien</button>
+                        <button title="Trier en ayant les projets les plus anciens d'abord" className={isOldestClick ? 'projets-btn-click' : 'projets-btn'} onClick={oldestButtonClick}> Projets les plus anciens</button>
                     </div>
 
                     <div className={isCompsClick ? 'projets-btns2-active' : 'projets-btns2'}>
@@ -286,5 +286,5 @@ export default function Projets()
 
 
                 </div>
-            </div>
+            </section>
 }

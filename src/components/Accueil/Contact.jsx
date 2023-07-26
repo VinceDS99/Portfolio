@@ -35,7 +35,7 @@ export default function Contact()
 
 
 
-	return <div className='contact-bloc' id='contact'>
+	return <section className='contact-bloc' id='contact'>
                         <div className='contact-bloc-titre'>
                                 <h2 className='contact-titre'>Me contacter :</h2>
                         </div>
@@ -62,5 +62,5 @@ export default function Contact()
                                 </div>
                         </div>
 
-                </div>
+                </section>
 }

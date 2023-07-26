@@ -30,7 +30,7 @@ body
         flex-direction: column !important;
     }
 
-    .contact-img, .brain , .Logo-small, .presentation-img
+    .contact-img, .brain , .presentation-img
     {
         display: none !important;
     }
@@ -111,12 +111,31 @@ body
         margin-left:5%;
         font-size: 22px;
     }
+
+    .competences-skills
+    {
+        margin-left:7% !important;
+    }
+
+    .Logo-small
+    {
+        position: absolute;
+        margin-left: 40%;
+    }
+
 }
 @media screen and (min-width:768px) and (max-width:991px)
 {
+
+    .contact-img, .brain , .Logo-small, .presentation-img
+    {
+        display: none !important;
+    }
+
     .nav
     {
         width: 90%;
+        margin-left: 6%;
     }
 
     .btn
@@ -143,6 +162,22 @@ body
     .img-projet
     {
         object-fit: contain !important;
+    }
+
+    .competences-skills
+    {
+        margin-left:10% !important;
+    }
+
+    .login-box
+    {
+        width: 70% !important;
+        margin-left:20%;
+    }
+
+    .presentation
+    {
+        margin-left: 10% !important;
     }
 
 }

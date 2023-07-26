@@ -12,10 +12,15 @@ export default function Details()
 {
         const params = useParams()
         const taille = projetsList.find(element => element.id === params.id)
-        console.log(taille.date)
+        var dateFin = 1;
 
-        var dateDMY = taille.date
-        const dateFin = new Intl.DateTimeFormat('fr-FR', {year: 'numeric', month: '2-digit',day: '2-digit'}).format(dateDMY);
+        if (taille != undefined) 
+        {
+            console.log(taille.date)
+            var dateDMY = taille.date
+            dateFin = new Intl.DateTimeFormat('fr-FR', {year: 'numeric', month: '2-digit',day: '2-digit'}).format(dateDMY);
+        }
+
 
 
         return <div className='' >
@@ -44,7 +49,7 @@ export default function Details()
                                             {filteredProject.description}
                                         </p>  
                                         {filteredProject.tasks.length > 0 &&
-                                            <h2>Tâches principales réalisés :</h2>
+                                            <h2>Tâches principales réalisées :</h2>
                                         }
                                         
                                         {filteredProject.tasks.length > 0 && filteredProject.tasks.map
@@ -53,6 +58,19 @@ export default function Details()
                                             )
                                         }
                                         
+                                        {filteredProject.difficulties.length === 1 &&
+                                            <h2>Difficulté rencontrée :</h2>
+                                        }
+
+                                        {filteredProject.difficulties.length > 1 &&
+                                            <h2>Difficultés rencontrées :</h2>
+                                        }
+                                        
+                                        {filteredProject.difficulties.length > 0 && filteredProject.difficulties.map
+                                            ((task,index) =>
+                                                <p className="detais-desc-task" key={index}>- {task}</p>                    
+                                            )
+                                        }
 
                                         <h2>Contexte de la réalisation du projet :</h2>
                                         <p className="details-desc-context">

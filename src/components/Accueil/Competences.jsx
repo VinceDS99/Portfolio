@@ -43,10 +43,10 @@ export default function Competences()
     let phpTab = Ratings('PHP');
     let debugoptiTab = Ratings('Debug/Optimisation');
     
-	return <div className='competences-bloc' id='skills'>
+	return <section className='competences-bloc' id='skills'>
 
                 <h2 className='competences-title'>
-                    Mes compétences actuelle :
+                    Mes compétences actuelles :
                 </h2>
 
                 <div className='competences-all'>
@@ -218,5 +218,5 @@ export default function Competences()
                     </div>
                 </div>
 
-            </div>
+            </section>
 }

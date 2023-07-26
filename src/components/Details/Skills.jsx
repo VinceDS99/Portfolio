@@ -12,12 +12,12 @@ export default function Skills()
                 
                 
                 {foundSkills.skills.length > 1 && (
-                    <h2>Compétences utilisés dans ce projet</h2>
+                    <h2>Compétences utilisées dans ce projet</h2>
                         )
                 }
 
                 {foundSkills.skills.length  === 1 && (
-                    <h2>Compétence utilisé dans ce projet</h2>
+                    <h2>Compétence utilisée dans ce projet</h2>
                     )
                 }
 

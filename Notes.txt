@@ -1,19 +1,6 @@
-Section, article
 
 Filtre
 
 Tri
 
-
-responsive
-
 nombre projets
-
-//////
-
- Le site présente au moins 2 projets réalisés par l’étudiant, pour lesquels sont affichés :
-
-une courte description ;
-les problématiques que vous avez rencontrées et comment vous les avez surmontées ;
-les compétences employées pour la réalisation du projet ;
-un lien vers le code ou le site.

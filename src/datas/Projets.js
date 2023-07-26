@@ -35,6 +35,10 @@ export const projetsList =
 		[
 			"Reproduction de la maquette donnée",
 			"Création d'un site responsive"
+		],
+		"difficulties": 		
+		[
+			"Placer tous les éléments comme sur la maquette était compliqué, car j'étais encore à mes débuts sur CSS à ce moment-là. Pour régler cela, j'ai regardé des cours sur le CSS et j'ai notamment appris l'utilisation des flex-box."
 		]
 	},
 	{
@@ -53,7 +57,7 @@ export const projetsList =
 			"https://pbs.twimg.com/media/F1RWgMbWIAAKDdy?format=jpg&name=360x360",
 			"https://pbs.twimg.com/media/F1RWgMVWAAAJS3P?format=jpg&name=360x360"
 		],
-		"description": "Ce site est un de mes premiers projets. J'ai surtout fait la partie technique du site ainsi qu'un peu de visuel sur la page d'accueil après connexion avec le design des modales. Niveau technique, j'ai réalisé le fonctionnement des boutons de filtres, le système de connexion ainsi que l'ajout et la suppression de projet avec Javascript. L'API était déjà crée.",
+		"description": "Ce site est un de mes premiers projets. J'ai surtout fait la partie technique du site ainsi qu'un peu de visuel sur la page d'accueil après connexion avec le design des modales. Niveau technique, j'ai réalisé le fonctionnement des boutons de filtres, le système de connexion ainsi que l'ajout et la suppression de projet avec Javascript. L'API était déjà créé.",
 		"difficulty": "4",
 		"skills": 
 		[
@@ -70,9 +74,13 @@ export const projetsList =
 		"context": "Projet de la formation de développeur web Open Classroom",
 		"tasks": 
 		[
-			"Création système d'inscription et de connexion",
+			"Création du système d'inscription et de connexion",
 			"Création d'un système d'ajouts et de suppression de projets",
 			"Ajouts de boutons de filtres fonctionnels"
+		],
+		"difficulties": 		
+		[
+			"Le système d'ajout de projet n'était pas facile à mettre en place, car je ne savais pas comment faire. À l'aide de cours et d'aides extérieurs, j'ai réussi à le réaliser."
 		]
 	},
 	{
@@ -88,7 +96,7 @@ export const projetsList =
 			"https://pbs.twimg.com/media/F1RWs8FWwAInR05?format=jpg&name=360x360",
 			"https://pbs.twimg.com/media/F1RWs8ZWAAEu95Q?format=jpg&name=small"
 		],
-		"description": "Ce site est une mise en situtation : je devais améliorer son SEO, ses performances, son accessibilité et corriger des bugs. J'ai donc changer les formats des images que j'ai égaelement re-dimensioner. J'ai aussi réglé deux bugs au niveau des boutons de tri. Pour l'accessibilité, j'ai arrangé les problèmes de contraste avec Wave. Pour le SEO et les performances, j'ai utilisé lighthouse. Lien du code avant modification : https://github.com/nina-carducci/nina-carducci.github.io",
+		"description": "Ce site est une mise en situation : je devais améliorer son SEO, ses performances, son accessibilité et corriger des bugs. J'ai donc changer les formats des images que j'ai également redimensionné. J'ai aussi réglé deux bugs au niveau des boutons de tri. Pour l'accessibilité, j'ai arrangé les problèmes de contraste avec Wave. Pour le SEO et les performances, j'ai utilisé lighthouse. Lien du code avant modification : https://github.com/nina-carducci/nina-carducci.github.io",
 		"difficulty": "5",
 		"skills": 
 		[
@@ -112,6 +120,10 @@ export const projetsList =
 			"Corrections d'un bug au niveau des flèches de la fenêtre modale",
 			"Arrangement des couleurs du site pour un meilleur contraste",
 			"Suppression de fichiers inutiles"
+		],
+		"difficulties": 		
+		[
+			"La difficulté de ce projet était de rendre les images moins volumineuses tout en gardant une bonne qualité, car c'est le site d'une photographe. Pour régler ça, j'ai trouvé un compromis entre taille et qualité."
 		]
 	},
 	{
@@ -130,7 +142,7 @@ export const projetsList =
 			"https://pbs.twimg.com/media/F1RXZUIWIAAw2kG?format=jpg&name=small",
 			"https://pbs.twimg.com/media/F1RXZUKWcAY1vAH?format=jpg&name=small"
 		],
-		"description": "Ce site est mon premier projet fait avec React. J'ai fais tout ce site en me basant sur la maquette.",
+		"description": "Ce site est mon premier projet fait avec React. J'ai fait tout ce site en me basant sur la maquette.",
 		"difficulty": "6",
 		"skills": 
 		[
@@ -150,8 +162,12 @@ export const projetsList =
 		"context": "Projet de la formation de développeur web Open Classroom",
 		"tasks": 
 		[
-			"Créations de components ré-utilisable",
+			"Créations de components réutilisable",
 			"Création d'un carrousel à partir de rien"
+		],
+		"difficulties": 		
+		[
+			"Ce qui m'a posé problème dans ce projet, c'est que je découvrais React. Il fallait donc que je comprenne comment ça fonctionne ainsi que l'utilité des 'components'. Pour régler cela, j'ai dû suivre des tutoriels sur React."
 		]
 	},
 	{
@@ -177,8 +193,11 @@ export const projetsList =
 			"Git Hub"
 		],
 		"figma": "",
-		"context": "Projet de la formation de découverte du développement web de l' Afpa",
+		"context": "Projet de la formation de découverte du développement web de l'Afpa",
 		"tasks": 
+		[
+		],
+		"difficulties": 		
 		[
 		]
 	},
@@ -198,7 +217,7 @@ export const projetsList =
 			"https://pbs.twimg.com/media/F1WyotQXsAAH82d?format=jpg&name=360x360",
 			"https://pbs.twimg.com/media/F1Wyot1XwAI6qmw?format=jpg&name=small"
 		],
-		"description": "Sur ce site je me suis occupé uniquement du back-end.",
+		"description": "Sur ce site, je me suis occupé uniquement du back-end.",
 		"difficulty": "5",
 		"skills": 
 		[
@@ -214,9 +233,13 @@ export const projetsList =
 		"tasks": 
 		[
 			"Connexion à la base de données Mongo DB",
-			"Création système d'inscription et de connexion",
+			"Création du système d'inscription et de connexion",
 			"Mise en place du CRUD",
 			"Conversion de fichier avec le middleware sharp"
+		],
+		"difficulties": 		
+		[
+			"Ce projet n'était pas facile à réaliser, car je n'avais jamais fait de JavaScript back-end. Pour résoudre mes problèmes, je me suis servi des cours et de mon mentor Open Classroom."
 		]
 	},
 	{
@@ -236,7 +259,7 @@ export const projetsList =
 			"https://pbs.twimg.com/media/F1ql5cNXwAEjOod?format=jpg&name=360x360",
 			"https://pbs.twimg.com/media/F1ql5cGWAAE-6De?format=jpg&name=small"
 		],
-		"description": "Ce site est mon premier projet sur PHP mais aussi mon premier fait en groupe. Sur ce site je me suis occupé uniquement du back-end. Nous partions de rien et l'objectif était de réaliser le site d'une agence immobilière imaginaire aussi complet que possible. Pour cela nous nous sommes répartis les tâches entre front-end, back-end et base de données. Pour communiquer nous utilisions Discord et pour mettre à jour notre travail, nous utilisions Git et Git Hub.",
+		"description": "Ce site est mon premier projet sur PHP, mais aussi mon premier fait en groupe. Sur ce site, je me suis occupé uniquement du back-end. Nous partions de rien et l'objectif était de réaliser le site d'une agence immobilière imaginaire aussi complet que possible. Pour cela, nous nous sommes réparti les tâches entre front-end, back-end et base de données. Pour communiquer, nous utilisions Discord et pour mettre à jour notre travail, nous utilisions Git et Git Hub.",
 		"difficulty": "5",
 		"skills": 
 		[
@@ -254,11 +277,16 @@ export const projetsList =
 		"tasks": 
 		[
 			"Affichage des images de couverture des trois annonces les plus vues",
-			"Création système d'inscription et de connexion",
+			"Création du système d'inscription et de connexion",
 			"Application du CRUD pour les annonces",
 			"Création d'un système de favoris",
 			"Affichage des annonces selon les filtres choisis et avec pagination en cas de nombreux résultats",
 			"Création d'une section commentaire avec la possibilité de les trier selon plusieurs critères"
+		],
+		"difficulties": 		
+		[
+			"La première difficulté de ce projet était l'utilisation du langage PHP que je découvrais. J'ai donc regardé des tutoriels pour apprendre ce langage.",
+			"La deuxième difficulté résidait dans le fait que c'était mon premier projet à réaliser en groupe. Nous avons donc dû apprendre à nous organiser et à mettre notre travail en commun sur Git Hub."
 		]
 	}
 ]

@@ -3,7 +3,7 @@ export const skillsList =
 	{
 		"id": "skill1",
 		"title": "HTML",
-        "rating": "5"
+        "rating": "4"
 	},
     {
 		"id": "skill2",
@@ -28,11 +28,11 @@ export const skillsList =
     {
 		"id": "skill6",
 		"title": "PHP",
-        "rating": "4"
+        "rating": "3"
 	},
     {
 		"id": "skill7",
 		"title": "Debug/Optimisation",
-        "rating": "4"
+        "rating": "3"
 	}
 ]

@@ -17,7 +17,7 @@ export default function Presentation()
     }
 
 
-	return <div className='presentation-bloc' id='presentation'>
+	return <section className='presentation-bloc' id='presentation'>
                     <div className='presentation-img'>
                         <img src={Man} alt="Man" className='Man'/>
                         <img src={Logo} alt="Logo" className='Logo'/>
@@ -28,11 +28,10 @@ export default function Presentation()
                             <h2>Bonjour ! </h2>
 
                             <span>Je m'appelle Vincent Dos Santos, je suis Développeur junior et voici mon portfolio !</span><br/>
-                            <span>Je viens de terminer ma formation de développement web de niveau bac +2 et je suis maintenant à la recherche d'un emploi dans ce domaine.</span><br/> 
-                            <span>Je souhaite devenir un développeur spécialisé dans le back-end et j'aimerais donc un travail me permettant d'atteindre cet objectif.</span>
-<button onClick= {()=>{downloadFileAtURL(PDF_FILE_URL)}} className="btn"> <i className="fa fa-download"></i> Télécharger mon CV ici !</button>
+                            <span>Je viens de terminer ma formation de développement web de niveau bac +2  sur Open Classroom et je suis maintenant à la recherche d'un emploi dans ce domaine.</span><br/> 
+                            <span>Je souhaite devenir un développeur fullstack et j'aimerais donc un travail me permettant d'atteindre cet objectif.</span>
+                                <button onClick= {()=>{downloadFileAtURL(PDF_FILE_URL)}} className="btn"> <i className="fa fa-download"></i> Télécharger mon CV ici !</button>
                             </span>
-
                     </div>
-            </div>
+            </section>
 }
