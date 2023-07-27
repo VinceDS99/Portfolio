@@ -1,11 +1,11 @@
 import { useParams } from "react-router-dom"
-import { projetsList } from '../../datas/Projets'
+import { listProjets } from '../../datas/Projets'
 
 export default function Tools() 
 {
         const params = useParams()
         
-        const foundTools = projetsList.find(element => element.id === params.id);
+        const foundTools = listProjets.find(element => element.id === params.id);
         
     return <div className="">
                                     

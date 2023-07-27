@@ -1,5 +1,5 @@
 import '../../styles/Accueil/Projets.css'
-import {projetsList} from '../../datas/Projets'
+import {listProjets} from '../../datas/Projets'
 import {Link} from "react-router-dom"
 import {useState} from "react"
 
@@ -13,8 +13,7 @@ export default function Projets()
         //  console.log(numDate.getTime());
         //  console.log(new Intl.DateTimeFormat('fr-FR', {year: 'numeric', month: '2-digit',day: '2-digit'}).format(numDate.getTime()));
 
-    const listProjets = projetsList
-    var projects = projetsList;
+    var [displayedProjects, setDisplayedProjects] = useState(listProjets);
 
     const [isNewestClick, setNewestClick] = useState(false);
     const [isOldestClick, setOldestClick] = useState(false);
@@ -33,9 +32,8 @@ export default function Projets()
         {
             console.log('Affichage tab trié') 
 
-            var projects = listProjets;
-            projects.sort((a, b) => b.date - a.date);
-            console.log(projects);
+            setDisplayedProjects(listProjets.sort((a, b) => b.date - a.date));
+            console.log(displayedProjects);
 
             setNewestClick(true);
             setOldestClick(false);
@@ -44,9 +42,8 @@ export default function Projets()
         {
             console.log('Affichage de base') 
 
-            projects = projetsList;
-            projects.sort();
-            console.log(projects);
+            setDisplayedProjects(listProjets.sort());
+            console.log(displayedProjects);
             setOldestClick(false);
         }        
         }
@@ -56,9 +53,8 @@ export default function Projets()
         {
             console.log('Affichage tab trié') 
 
-            var projects = listProjets;
-            projects.sort((a, b) => a.date - b.date);
-            console.log(projects);
+            setDisplayedProjects(listProjets.sort((a, b) => a.date - b.date));
+            console.log(displayedProjects);
 
             setOldestClick(true);
             setNewestClick(false);
@@ -67,8 +63,8 @@ export default function Projets()
         {
             console.log('Affichage de base') 
 
-            projects.sort();
-            console.log(projects);
+            setDisplayedProjects(listProjets.sort());
+            console.log(displayedProjects);
 
             setOldestClick(false);
             setNewestClick(false);
@@ -89,13 +85,12 @@ export default function Projets()
         const skillButtonClick = (skillSend) => {
 
                 skillSend = skillSend.target.innerHTML; 
+                console.log(skillSend)
                 
-                var projects = listProjets;
-                
-                projects = projects.filter( el =>  el.skills.includes(skillSend) === true  )
+                setDisplayedProjects(listProjets.filter( el =>  el.skills.includes(skillSend) === true  ))
 
 
-                console.log(projects)
+                console.log(displayedProjects)
 
                 if (skillSend === 'HTML' && isHtmlClick === false)
                 {
@@ -246,7 +241,7 @@ export default function Projets()
                 setNewestClick(false);
             }
             
-            console.log(projects)
+            console.log(displayedProjects)
 
 	return <section className='projets-bloc' id='projets'>
 
@@ -273,7 +268,7 @@ export default function Projets()
 
 
                     <div className="projets-all">
-                        {projects.map((projet) => 
+                        {displayedProjects.map((projet) => 
                                             (
                                                 <div className='projets-item' key={projet.id}>
                                                     <Link to={"FicheDetail/" + projet.id}  className='loc-text'>

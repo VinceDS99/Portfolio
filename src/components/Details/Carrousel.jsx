@@ -1,11 +1,11 @@
 import { useParams } from "react-router-dom"
-import { projetsList } from '../../datas/Projets'
+import { listProjets } from '../../datas/Projets'
 import '../../styles/Details/Carrousel.css'
 
 export default function Carrousel() 
 {
         const params = useParams()        
-        const found = projetsList.find(element => element.id === params.id);
+        const found = listProjets.find(element => element.id === params.id);
 
         var i = 0
 

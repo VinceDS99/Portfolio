@@ -1,5 +1,5 @@
 import { useParams } from "react-router-dom"
-import { projetsList } from '../datas/Projets'
+import { listProjets } from '../datas/Projets'
 import {Link} from "react-router-dom"
 import '../styles/Details/Details.css'
 
@@ -11,7 +11,7 @@ import NavigationError from "../components/NavigationError"
 export default function Details() 
 {
         const params = useParams()
-        const taille = projetsList.find(element => element.id === params.id)
+        const taille = listProjets.find(element => element.id === params.id)
         var dateFin = 1;
 
         if (taille != undefined) 
@@ -27,7 +27,7 @@ export default function Details()
 
                     <NavigationError/>
                         
-                    {projetsList.filter(projet => projet.id === params.id).map((filteredProject,index) => 
+                    {listProjets.filter(projet => projet.id === params.id).map((filteredProject,index) => 
 
                     <div key={index}>
                             <div className="details-bloc" >
